@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#TopLogin {
+    height: 30px;
+    background-color:rgb(253, 245, 236);
+    width: 100%;
+}
+
+#loginlogo {
+    height: 35px;
+    display: inline-block;
+    padding-left: 50%;
+    text-align: center;
+}
+
+#LoginForm>input {
+    display: inline-block;
+    margin-top: 5px
+}
+
+#LoginForm {
+    display: inline-block;
+    position: relative;
+
+    top: 110px;
+    left: 65%;
+    background-color: rgb(253, 245, 236);
+    padding: 20px;
+}
+
+#LoginForm>p>a,li>a {
+    text-decoration: none;
+
+}
+
+#LoginForm>input[type=submit] {
+    margin-left: 65px;
+    margin-top: 10px;
+
+    width: 50px;
+    height: 25px;
+
+}
+
+#intro {
+    position: absolute;
+    display: inline-block;
+    width: 50%;
+
+}
+
+#intro>img {
+    width: 80%;
+}
+
+#TopLogin a>img {
+    width: 20px;
+    margin-right: 2px;
+}
+
+ul {
+    list-style-type: none;
+    display: inline;
+    position: absolute;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    right: 50%;
+    top: 4px;
+
+}
+
+#TopLogin li {
+    display: inline;
+    
+
+}
+.text-input:focus
+{
+    background-color:rgb(252, 251, 219);
+}
+
